@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="author" content="Rogelis Garcia">
+    <meta name="description" content="gestor de productos">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="shortcut icon" href="./img/logo.png" type="image/x-icon">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>Gestor de productos</h1>
+    </header>
+
+    <main>
+        <form id="Formulario">
+            <label for="texto">Ingrese producto:</label><br />
+            <input id="texto" type="text" /><br />
+
+            <label for="cantidad">Ingrese cantidad:</label><br />
+            <input id="cantidad" type="text" /><br /><br />
+
+            <button id="boton" type="submit">Enviar</button>
+        </form>
+
+        <h2>Lista de Productos:</h2>
+        <ul id="lista-productos"></ul> <!-- Aquí se mostrarán los productos -->
+    </main>
+
+    <footer>
+         <p>&copy; 2025 Rogelis Garcia.</p>
+    </footer>
+
+    <script src="./javascript/gestion_datos.js"></script>
+</body>
+</html>
